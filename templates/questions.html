@@ -8,8 +8,8 @@
 <body>
     <h1>Santa's Questions</h1>
     <form action="/submit" method="POST">
-        <label>What is your name?</label><br>
-        <textarea name="name" rows="1" cols="50" required></textarea><br><br>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" name="name" required><br><br>
 
         <label>1. Do you believe in Santa?</label><br>
         <input type="radio" id="believe_in_santa_yes" name="believe_in_santa" value="yes" required>

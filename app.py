@@ -49,7 +49,11 @@ def submit():
 
 
     return render_template('results.html', 
-                           response_user=response_user)
+                           response_user=response_user,
+                           name=name,
+                           naughty=naughty,
+                           good=good
+                           )
 
 if __name__ == '__main__':
     app.run(debug=True)
