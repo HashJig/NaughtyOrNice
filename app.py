@@ -54,19 +54,19 @@ def submit():
 
     response_user = ""
     if good_responses == 5:
-        response_user = "You have been really nice"
+        response_user = "has been really nice"
         good.append(name)
     elif good_responses == 4:
-        response_user = "You have been nice"
+        response_user = "has been nice"
         good.append(name)
     elif good_responses == 3:
-        response_user = "You haven't been too bad"
-        good.append(name)    
+        response_user = "has been too bad to be on the nice list"
+        naughty.append(name)    
     elif good_responses == 2:
-        response_user = "You have been a bit naughty"
+        response_user = "has been a bit naughty"
         naughty.append(name)
     else:
-        response_user = "You have been really naughty"
+        response_user = "has been really naughty"
         naughty.append(name)
 
 
