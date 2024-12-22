@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
     <title>Santa's Questions</title>
 </head>
 <body>
     <h1>Santa's Questions</h1>
     <form action="/submit" method="POST">
-        <label for="name">What is your name?</label>
+        <label for="name">What is their name?</label>
         <input type="text" id="name" name="name" required><br><br>
 
-        <label>1. Do you believe in Santa?</label><br>
+        <label>1. Do they believe in Santa?</label><br>
         <input type="radio" id="believe_in_santa_yes" name="believe_in_santa" value="yes" required>
         <label for="believe_in_santa_yes">Yes</label>
         <input type="radio" id="believe_in_santa_no" name="believe_in_santa" value="no">
         <label for="believe_in_santa_no">No</label><br><br>
 
-        <label>2. Have you lost your temper this year?</label><br>
+        <label>2. Have they lost your temper this year?</label><br>
         <input type="radio" id="lost_temper_yes" name="lost_temper" value="yes" required>
         <label for="lost_temper_yes">Yes</label>
         <input type="radio" id="lost_temper_no" name="lost_temper" value="no">
         <label for="lost_temper_no">No</label><br><br>
 
-        <label>3. Do you always say 'please' and 'thank you'?</label><br>
+        <label>3. Do they always say 'please' and 'thank you'?</label><br>
         <input type="radio" id="say_please_thank_you_yes" name="say_please_thank_you" value="yes" required>
         <label for="say_please_thank_you_yes">Yes</label>
         <input type="radio" id="say_please_thank_you_no" name="say_please_thank_you" value="no">
         <label for="say_please_thank_you_no">No</label><br><br>
 
-        <label>4. Do you ever whine?</label><br>
+        <label>4. Do they ever whine?</label><br>
         <input type="radio" id="whine_yes" name="whine" value="yes" required>
         <label for="whine_yes">Yes</label>
         <input type="radio" id="whine_no" name="whine" value="no">
         <label for="whine_no">No</label><br><br>
 
-        <label>5. Bonus question: What is the nicest thing you have ever done?</label><br>
+        <label>5. What is the nicest thing they have ever done?</label><br>
         <textarea name="nicest_thing" rows="4" cols="50" required></textarea><br><br>
 
         <input type="submit" value="Submit">
